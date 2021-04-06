@@ -21,6 +21,8 @@ knitr::opts_chunk$set(
 
 The goal of droneland is to calculate the area of land captured by a drone image, using the method outlined in this [manuscript](https://www.tandfonline.com/doi/full/10.1080/01431161.2017.1280639).
 
+Why do we care? Because ecological abundance is modelled using observed animeeple / land area. 
+
 ## Installation
 
 You can install the development version from [GitHub](https://github.com/) with:
