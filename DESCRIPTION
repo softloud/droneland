@@ -2,8 +2,7 @@ Package: droneland
 Type: Package
 Title: Calculate the area of land captured by a drone image
 Version: 0.1.0
-Author: Charles T. Gray
-Maintainer: Charles T. Gray <charlestigray@gmail.com>
+Authors@R: c(person("Charles T.", "Gray", email = "charlestigray@gmail.com", role = c("aut", "cre")))
 Date: 2021-04-06
 Description: Calculate the area of land captured by a drone image from the angle of the camera, the height, and the fields of view.
 License: MIT + file LICENSE

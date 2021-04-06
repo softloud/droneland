@@ -67,3 +67,11 @@ drone_image_area(
 Check [my derivations](https://www.overleaf.com/read/twnpsndycrgw), please and thank you :) 
 
 In the derivations there are diagrams to check what angles to input. 
+
+## Cite this package
+
+```{r}
+citation("droneland")
+
+```
+

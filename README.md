@@ -69,3 +69,23 @@ Check [my derivations](https://www.overleaf.com/read/twnpsndycrgw),
 please and thank you :)
 
 In the derivations there are diagrams to check what angles to input.
+
+## Cite this package
+
+``` r
+citation("droneland")
+#> 
+#> To cite package 'droneland' in publications use:
+#> 
+#>   Charles T. Gray (2021). droneland: Calculate the area of land
+#>   captured by a drone image. R package version 0.1.0.
+#> 
+#> A BibTeX entry for LaTeX users is
+#> 
+#>   @Manual{,
+#>     title = {droneland: Calculate the area of land captured by a drone image},
+#>     author = {Charles T. Gray},
+#>     year = {2021},
+#>     note = {R package version 0.1.0},
+#>   }
+```
