@@ -6,7 +6,7 @@ Author: Charles T. Gray
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: 
@@ -15,4 +15,5 @@ Config/testthat/edition: 3
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Imports: 
+    assertthat,
     magrittr
