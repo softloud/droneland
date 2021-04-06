@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 [![R-CMD-check](https://github.com/softloud/droneland/workflows/R-CMD-check/badge.svg)](https://github.com/softloud/droneland/actions)
 <!-- badges: end -->
 
-The goal of droneland is to calculate the area of land captured by a drone image.
+The goal of droneland is to calculate the area of land captured by a drone image, using the method outlined in this [manuscript](https://www.tandfonline.com/doi/full/10.1080/01431161.2017.1280639).
 
 ## Installation
 
@@ -40,11 +40,24 @@ library(droneland)
 drone_image_area(
   camera_angle = 25,
   vertical_fov = 38,
-  horizontal_fov = 44,
+  horizontal_fov = 54,
   height = 200,
   pixel_row = 7952,
   pixel_col = 5304
 )
+
+# dimensions of trapezoid
+
+drone_image_area(
+  camera_angle = 25,
+  vertical_fov = 38,
+  horizontal_fov = 54,
+  height = 200,
+  pixel_row = 7952,
+  pixel_col = 5304,
+  dim = TRUE
+) %>% purrr::map(round)
+
 
 ```
 

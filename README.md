@@ -9,7 +9,8 @@
 <!-- badges: end -->
 
 The goal of droneland is to calculate the area of land captured by a
-drone image.
+drone image, using the method outlined in this
+[manuscript](https://www.tandfonline.com/doi/full/10.1080/01431161.2017.1280639).
 
 ## Installation
 
@@ -34,12 +35,32 @@ library(droneland)
 drone_image_area(
   camera_angle = 25,
   vertical_fov = 38,
-  horizontal_fov = 44,
+  horizontal_fov = 54,
   height = 200,
   pixel_row = 7952,
   pixel_col = 5304
 )
-#> [1] 4250.316
+#> [1] 105366.1
+
+# dimensions of trapezoid
+
+drone_image_area(
+  camera_angle = 25,
+  vertical_fov = 38,
+  horizontal_fov = 54,
+  height = 200,
+  pixel_row = 7952,
+  pixel_col = 5304,
+  dim = TRUE
+) %>% purrr::map(round)
+#> $height
+#> [1] 299
+#> 
+#> $width_closest
+#> [1] 200
+#> 
+#> $width_furthest
+#> [1] 505
 ```
 
 ## Diagrams of angles and derivations

@@ -10,7 +10,8 @@ drone_image_area(
   horizontal_fov,
   height,
   pixel_row,
-  pixel_col
+  pixel_col,
+  dim = FALSE
 )
 }
 \arguments{
@@ -26,6 +27,8 @@ height of the drone.}
 \item{pixel_row}{Number of rows of pixels recorded.}
 
 \item{pixel_col}{Number of columns of pixels recorded.}
+
+\item{dim}{Output a list of the dimensions, two bases and height, of trapezoid.}
 }
 \value{
 Area of the trapezoid captured in the image, measured in metres
