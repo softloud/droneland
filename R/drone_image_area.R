@@ -1,5 +1,8 @@
 #' Calculate the area of land captured in a drone image
 #'
+#' See the [derivations](https://www.overleaf.com/read/twnpsndycrgw) for
+#' diagrams to check which angles are what.
+#'
 #' @param camera_angle Angle of the camera in degrees, as measured from the
 #' height of the drone.
 #' @param vertical_fov Vertical field of view of the camera, in degrees.

@@ -35,5 +35,6 @@ Area of the trapezoid captured in the image, measured in metres
 squared.
 }
 \description{
-Calculate the area of land captured in a drone image
+See the \href{https://www.overleaf.com/read/twnpsndycrgw}{derivations} for
+diagrams to check which angles are what.
 }
