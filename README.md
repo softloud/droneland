@@ -18,7 +18,7 @@ animeeple / land area.
 ## Installation
 
 You can install the development version from
-[GitHub](https://github.com/) with:
+[GitHub](https://github.com/):
 
 ``` r
 # install.packages("devtools")
@@ -80,14 +80,15 @@ citation("droneland")
 #> 
 #> To cite package 'droneland' in publications use:
 #> 
-#>   Charles T. Gray (2021). droneland: Calculate the area of land
-#>   captured by a drone image. R package version 0.1.0.
+#>   Charles T. Gray, Matthew Grainger and Hao Ye (2021). droneland:
+#>   Calculate the area of land captured by a drone image. R package
+#>   version 0.1.0.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Manual{,
 #>     title = {droneland: Calculate the area of land captured by a drone image},
-#>     author = {Charles T. Gray},
+#>     author = {Charles T. Gray and Matthew Grainger and Hao Ye},
 #>     year = {2021},
 #>     note = {R package version 0.1.0},
 #>   }

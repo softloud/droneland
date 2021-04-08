@@ -25,7 +25,7 @@ Why do we care? Because ecological abundance is modelled using observed animeepl
 
 ## Installation
 
-You can install the development version from [GitHub](https://github.com/) with:
+You can install the development version from [GitHub](https://github.com/):
 
 ``` r
 # install.packages("devtools")
